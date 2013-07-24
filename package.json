@@ -18,5 +18,8 @@
   "author": "FirstName LastName (http://mysiteurl.tld)",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "0cb5e4bbdd393fef86b2705401ac8a4fa67b7ea9"
+  "gitHead": "0cb5e4bbdd393fef86b2705401ac8a4fa67b7ea9",
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
 }
