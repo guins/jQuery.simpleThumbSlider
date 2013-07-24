@@ -21,12 +21,12 @@ Install all dependencies
 
 1. Edit the package.json file and change all your information
 
-	vim package.json
+	<code><pre>vim package.json</pre></code>
 
 2. Rename both files src/jQuery.myPluginName.js and src/jQuery.myPluginName.less with the exact same 'name' defined into package.json (for example: 'jq-myFirstPlugin').
 
-	git mv src/less/jQuery.myPluginName.less src/less/jq-myFirstPlugin.less
-	git mv src/js/jQuery.myPluginName.js src/js/jq-myFirstPlugin.js
+	<code><pre>git mv src/less/jQuery.myPluginName.less src/less/jq-myFirstPlugin.less
+	git mv src/js/jQuery.myPluginName.js src/js/jq-myFirstPlugin.js</pre></code>
 
 It's a key point in the set up process because Grunt is actually using this 'name' to get these files and do all tasks such as compile, minify, etc.
 
