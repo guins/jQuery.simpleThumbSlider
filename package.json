@@ -1,5 +1,8 @@
 {
   "name": "jQuery.myPluginName",
+  "fullname": "jQuery myPluginName Plugin",
+  "url": "https://github.com/yourUserName/jQuery.myPluginName",
+  "copyright": "2000-2013, Your copyright mention",
   "version": "0.0.1",
   "description": "Description of my new jQuery plugin",
   "main": "index.js",
@@ -20,6 +23,13 @@
   "readmeFilename": "README.md",
   "gitHead": "0cb5e4bbdd393fef86b2705401ac8a4fa67b7ea9",
   "devDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-banner": "~0.1.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-less": "~0.6.4"
   }
 }
