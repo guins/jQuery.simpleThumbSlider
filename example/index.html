@@ -7,21 +7,71 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Development css -->
-        <link rel="stylesheet" href="../src/css/jQuery.myPluginName.css">
+        <link rel="stylesheet" href="../src/css/jQuery.simpleThumbSlider.css">
+
+        <style type="text/css">
+            .sts-container {
+                position: relative;
+                width: 960px;
+                height: 200px;
+                margin: 10px auto;
+                background: #121212
+            }
+            .sts-slider {
+                position: relative;
+                overflow: hidden;
+                height: 180px;
+                background: #333;
+            }
+            .sts-thumb {
+                float: left;
+                height: 180px;
+                width: 180px;
+                background: #c1c1c1;
+            }
+            .sts-thumb + .sts-thumb {
+                margin-left: 10px;
+            }
+        </style>
     </head>
     <body>
         <h1>My Plugin example page</h1>
+
+        <div class="sts-container">
+            <div class="sts-slider">
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+                <div class="sts-thumb"></div>
+            </div>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
         <!-- Development js -->
-        <script src="../src/js/jQuery.myPluginName.js"></script>
+        <script src="../src/js/jQuery.simpleThumbSlider.js"></script>
 
         <script type="text/javascript">
-            // $(function(){
-            //     $('div').myPluginName();
-            // });
+            $(function(){
+                $('.sts-container').simpleThumbSlider();
+            });
         </script>
     </body>
 </html>

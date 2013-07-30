@@ -1,24 +1,25 @@
 {
-  "name": "jQuery.myPluginName",
-  "fullname": "jQuery myPluginName Plugin",
-  "url": "https://github.com/yourUserName/jQuery.myPluginName",
-  "copyright": "2000-2013, Your copyright mention",
+  "name": "jQuery.simpleThumbSlider",
+  "fullname": "jQuery Simple Thumb Slider Plugin",
+  "url": "https://github.com/guins/jQuery.simpleThumbSlider",
+  "copyright": "2013, Stéphane Guigné",
   "version": "0.0.1",
-  "description": "Description of my new jQuery plugin",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/yourUserName/jQuery.myPluginName.git"
+    "url": "https://github.com/guins/jQuery.simpleThumbSlider"
   },
   "keywords": [
     "jquery",
     "plugin",
-    "otherKeywords"
+    "thumbs",
+    "slider"
   ],
-  "author": "FirstName LastName (http://mysiteurl.tld)",
+  "author": "Stéphane Guigné (http://stephaneguigne.com)",
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "0cb5e4bbdd393fef86b2705401ac8a4fa67b7ea9",
