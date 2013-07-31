@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="../src/css/jQuery.simpleThumbSlider.css">
 
         <style type="text/css">
+            body {
+                overflow-x: hidden;
+            }
             .sts-container {
                 position: relative;
                 width: 960px;
@@ -70,7 +73,17 @@
 
         <script type="text/javascript">
             $(function(){
-                $('.sts-container').simpleThumbSlider();
+                $('.sts-container').simpleThumbSlider({
+                    stopOnAnimate : true,
+                    waitBeforeCallback : true,
+                    beforeCallback : function(){ 
+                       return $.when( $('body').stop(true,false).animate({opacity:.5},300) );
+                    },
+                    waitAfterCallback : true,
+                    afterCallback  : function(){
+                        return $.when( $('body').stop(true,false).animate({opacity:1},300) );
+                    }
+                });
             });
         </script>
     </body>

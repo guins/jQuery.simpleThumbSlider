@@ -1,3 +1,17 @@
+/*! jQuery Simple Thumb Slider Plugin
+*
+
+*
+* @version 0.0.1
+* @link https://github.com/guins/jQuery.simpleThumbSlider
+* @author Stéphane Guigné (http://stephaneguigne.com)
+* @license MIT
+* @copyright (c) 2013, Stéphane Guigné
+*
+* Last modification : 2013-07-30
+*
+*/
+
 ;(function ($) {
 	'use strict';
 
